@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,400italic);
+
+body{
+	background:#161743;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login, .register, .forgotPass{
+	width: 600px;
+	margin: 200px auto;
+}
+
+.register{
+	text-align: center;
+	position: absolute;
+}
+.forgotPass{
+	text-align: center;
+	position: relative;
+}
+
+.register-js{
+	position: absolute;
+	top: 0;
+
+	left: 50%;
+	margin-left: -175px;
+}
+
+.forgotPass-js{
+	position: relative;
+	align-items: center;
+}
+
+h1{
+	font-size: 24px;
+	font-weight: 200;
+	color: white;
+	border-bottom: 1px solid white;
+	line-height: 40px;
+}
+.lblock{
+	margin-top: 40px;
+	background: #161743;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10% 10%;
+	padding-bottom: 40px;
+}
+
+input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lblock .text{
+	outline: none;
+	width: 97%;
+	background: transparent;
+	border: none;	
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.lblock .text:hover{
+	background:#161743;
+}
+
+.lblock .text:focus{
+	background: #100a1a;
+	box-shadow: grey;
+}
+
+#lilpls{
+	padding-bottom: 15px;
+}
+
+.lblock input[type="checkbox"]{
+	margin-left: 0px;
+	margin-top: 1px;
+	float: left;	
+	cursor: pointer;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	background: transparent;
+	width: 15px;
+	height: 15px;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+input[type="checkbox"]:hover{
+	background: white;
+}
+input[type="checkbox"]:active{
+	background: #bbe8e6;
+}
+
+input[type="checkbox"]:checked{
+	background: #2b6461;
+}
+
+.lblock p#rem{
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 5px;
+	float: left;
+}
+
+.lblock p#forgot{
+	float: right;
+	color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+.lblock p#forgot:hover{
+	float: right;
+	color: white;
+	cursor: pointer;
+}
+
+.lbut input, .lbut button{
+	margin-top: 40px;
+	float: left;
+	width: 45%;
+	height: 45px;
+	background: transparent;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.lbut input:hover, .lbut button:hover{
+	border: 3px solid #161743; 
+	cursor: pointer;
+}
+
+.lbut input:active, .lbut button:active{
+	}
+
+.lbut input[type="button"]{
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+}

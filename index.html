@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Basic">
+<meta name="description" content="Basic Template">
+<script type="text/javascript" src="warpspeed.min.js"></script>
+<style type="text/css">
+    html,body{
+        margin:0;
+        padding:0;
+        font-family:sans-serif;
+        color:#FFFFFF;
+        background-color:#000000;
+        z-index: -1;
+    }
+</style>
+<title>Landing Page</title>
+
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head> 
+<body>
+    <div style="position:fixed; z-index:-1; top:0; left:0; width:100%; height:100%;">
+        <canvas id="canvas" style="width:100%; height:100%;"></canvas>
+        <script type="text/javascript">new WarpSpeed("canvas");</script>
+    </div>
+
+		<center><img src="icon.png" alt="icon" style="width:700px;height:350px"></center>
+        <div class="content">
+        	<div class="login">
+        		<form action="" method="" name="login">
+        			<div class="lblock">
+	        			<p><input type="text" placeholder="Username" name="username" class="text" /></p>
+	        			<p><input type="password" placeholder="••••••••" name="password" class="text" /></p>
+	        			<div id="lilpls">
+                            <input type="checkbox" name="remember" /><p id="rem">Yeah, please remember me.</input></p>
+	        			<center><p id="forgot">forgot password?</p></center>
+                        </div>
+        			</div>
+        			<div class="lbut"><input type="Submit" value="Login" id="l1" /></div>
+        		</form>
+
+        		<div class="lbut"><input type="button" value="Register" id="r1" /></div>
+        	</div>
+
+        	<div class="forgotPass">
+        		<h1>Forgot Username / Password</h1>
+
+        		<form action="" method="" name="fpass">
+        			<div class="lblock">
+	        			<p><input type="email" placeholder="your@email.com" name="email" class="text" /></p>
+        			</div>
+        			<div class="lbut"><input type="Submit" value="Remind Me" id="r3" /></div>
+        		</form>
+
+        		<div class="lbut"><input type="button" value="Login" id="l3" /></div>
+        	</div>
+
+        	<div class="register">
+
+        		<br>
+
+        		<form action="" method="" name="register">
+        			<div class="lblock">
+	        			<p><input type="text" placeholder="Username" name="username" class="text" /></p>
+	        			<p><input type="password" placeholder="••••••••" name="password" class="text" /></p>
+	        			<p><input type="password" placeholder="Repeat Password" name="rePassword" class="text" /></p>
+	        			<p><input type="email" placeholder="your@email.com" name="email" class="text" /></p>
+        			</div>
+        			<div class="lbut"><input type="Submit" value="Register" id="r2" /></div>
+        		</form>
+
+        		<div class="lbut"><input type="button" value="Login" id="l2" /></div>
+        	</div>
+
+        </div>
+        
+        <footer>
+        </footer>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
